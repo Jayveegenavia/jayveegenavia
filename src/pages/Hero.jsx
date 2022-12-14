@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 export const Hero = () => {
   return (
-    <div className="w-full h-screen bg-[#ECF0F3] mb-[50px]" name="home">
+    <div className="w-full h-screen bg-bgColor mb-[50px]" name="home">
       <div className="mx-auto max-w-[1200px] w-full h-full flex justify-between items-center px-4 md:px-[30px]">
         <div className="w-full mx-auto border-red-100 rounded-[50px] md:flex-col lg:flex-row flex justify-center md:justify-between items-center px-[30px] py-[50px] lg:p-[60px] text-center lg:text-left">
           <div className="">
