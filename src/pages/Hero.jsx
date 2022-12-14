@@ -39,7 +39,11 @@ export const Hero = () => {
           </div>
 
           <div className="hidden lg:flex lg:flex-col w-[50%] h-screen overflow-hidden relative">
-            <img src={profile} alt="profile picture" />
+            <img
+              src={profile}
+              alt="profile picture"
+              className="absolute bottom-0 w-full object-cover"
+            />
           </div>
         </div>
       </div>
