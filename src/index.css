@@ -24,13 +24,13 @@
 
 li:hover,
 .link:hover {
-  color: #ff914d;
+  @apply text-primary;
 }
 
 .active {
-  color: #ff914d;
   font-weight: bold;
   transition: all 200ms ease-in-out;
+  @apply text-primary;
 }
 
 input::placeholder {
