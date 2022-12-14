@@ -5,13 +5,13 @@ import { Link } from "react-scroll";
 export const Hero = () => {
   return (
     <div className="w-full h-screen bg-bgColor mb-[50px]" name="home">
-      <div className="mx-auto max-w-[1200px] w-full h-full flex justify-between items-center px-4 md:px-[30px]">
-        <div className="w-full mx-auto border-red-100 rounded-[50px] md:flex-col lg:flex-row flex justify-center md:justify-between items-center px-[30px] py-[50px] lg:p-[60px] text-center lg:text-left">
+      <div className="mx-auto max-w-[1200px] w-full h-full flex justify-between items-center px-4">
+        <div className="w-full mx-auto md:flex-col lg:flex-row flex justify-center md:justify-between items-center py-[50px] text-center lg:text-left">
           <div className="">
-            <h1 className="text-[40px] md:text-[50px] lg:text-[90px] text-primary">
-              <span className="font-qwitcher">
+            <h1 className="text-[40px] md:text-[50px] lg:text-[58px] text-white">
+              <span>
                 <Typewriter
-                  words={["I'm French Chezka Gazo"]}
+                  words={["Hi, I'm Jayvee Genavia"]}
                   typeSpeed={50}
                   deleteSpeed={50}
                   delaySpeed={1000}
@@ -19,9 +19,7 @@ export const Hero = () => {
               </span>
             </h1>
             <h2 className="text-[20px] lg:text-[25px]">
-              <span className="text-bgColor">
-                This is my official Portfolio website
-              </span>
+              <span className="text-white">Future Web Developer</span>
             </h2>
             <button>
               <Link
@@ -40,12 +38,8 @@ export const Hero = () => {
             </button>
           </div>
 
-          <div className="hidden lg:flex gap-10 p-4 lg:flex-col w-[400px] h-screen overflow-hidden relative">
-            <img
-              src={profile}
-              alt="profile picture"
-              className="bg-cover absolute top-[-51px] left-0"
-            />
+          <div className="hidden lg:flex lg:flex-col w-[50%] h-screen overflow-hidden relative">
+            <img src={profile} alt="profile picture" />
           </div>
         </div>
       </div>
