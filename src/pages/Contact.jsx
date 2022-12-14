@@ -13,13 +13,13 @@ function Contact() {
         <div className="mx-auto text-center mb-[40px]">
           <h1 className="text-primary text-[32px]">CONTACT</h1>
         </div>
-        <div className="flex gap-10 w-full">
+        <div className="flex gap-10 w-full justify-center items-start">
           <div className="space-y-5 hidden lg:flex flex-col">
             <span className="flex gap-2 items-center text-[18px]">
-              <FaEnvelope /> frenchchezkag@gmail.com
+              <FaPhoneAlt /> 09918453748
             </span>
             <span className="flex gap-2 items-center text-[18px]">
-              <FaFacebook /> French Chezka Gazo
+              <FaEnvelope /> jayveegenavia2@gmail.com
             </span>
           </div>
           <form action="" className="w-full space-y-5 text-white max-w-[800px]">

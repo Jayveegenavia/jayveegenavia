@@ -14,7 +14,7 @@ const About = () => {
               <img
                 src={profile}
                 alt="image"
-                className="absolute top-[-130px] md:top-[-70px] md:h-[600px] w-full"
+                className="absolute md:top-[-70px] md:h-[600px] w-full"
               />
             </div>
             <div className="bg-bgColor h-full w-full flex-1 flex flex-col items-start justify-center  ">
