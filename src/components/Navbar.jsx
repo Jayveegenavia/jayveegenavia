@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const addShadow = () => {
-    if (window.scrollY >= 550) {
+    if (window.scrollY >= 80) {
       setShadow(true);
     } else setShadow(false);
   };
@@ -22,7 +22,7 @@ const Navbar = () => {
       className={
         shadow
           ? "fixed z-10 w-full h-20 backdrop-blur-[16px] bg-[rgba(236, 240, 243, 1)] text-white"
-          : "fixed bg-[#ECF0F3] bg-opacity-70 w-full h-20 z-50 text-black"
+          : "fixed bg-bgColor bg-opacity-70 w-full h-20 z-50 text-white"
       }
     >
       <div className="flex max-w-[1200px] w-full h-full mx-auto px-[15px] md:px-[30px] lg:px-10 justify-end items-center">
